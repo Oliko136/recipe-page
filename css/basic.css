@@ -1,3 +1,32 @@
+:root {
+    --rose-800: #7A284E;
+    --rose-50: #FFF7FB;
+    --stone-900: #312E2C;
+    --stone-600: #5F564D;
+    --stone-150: #E3DDD7;
+    --stone-100: #F3E5D7;
+    --brown-800: #854632;
+    --white: #FFFFFF;
+    --font-family-title: 'Young Serif', serif;
+    --font-family-main: 'Outfit', sans-serif;
+    --line-height: 1.5rem;
+    --font-size-1: 2.5rem;
+    --font-size-2: 1.75rem;
+    --font-size-3: 1.25rem;
+    --font-size-4: 1rem;
+    --spacing-100: 0.5rem;
+    --spacing-150: 0.75rem;
+    --spacing-200: 1rem;
+    --spacing-300: 1.5rem;
+    --spacing-400: 2rem;
+    --spacing-500: 2.5rem;
+    --spacing-600: 3rem;
+    --spacing-1600: 8rem;
+    --mobile: 375px;
+    --tablet: 768px;
+    --desktop: 1440px;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -33,4 +62,8 @@ img {
 
 body {
     margin: 0;
+    font-family: var(--font-family-main);
+    line-height: var(--line-height);
+    color: var(--stone-600);
+    background-color: var(--stone-100);
 }
