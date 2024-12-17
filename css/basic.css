@@ -27,6 +27,30 @@
     --desktop: 1440px;
 }
 
+@font-face {
+    font-family: var(--font-family-title);
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: var(--font-family-main);
+    src: url('../assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: var(--font-family-main);
+    src: url('../assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: var(--font-family-main);
+    src: url('../assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
 html {
     box-sizing: border-box;
 }
