@@ -21,6 +21,65 @@
     gap: var(--spacing-300);
 }
 
+.title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-mobile-1);
+    font-weight: 400;
+    line-height: 2.25rem;
+    color: var(--stone-900);
+}
+
+.subtitle {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-2);
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: var(--brown-800);
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-200);
+    width: 100%;
+    padding: var(--spacing-300);
+    border-radius: 12px;
+    background-color: var(--rose-50);
+}
+
+.time_title {
+    font-size: var(--font-size-3);
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: var(--rose-800);
+}
+
+.subsection {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-300);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-100);
+    padding-left: var(--spacing-500);
+}
+
+.accent {
+    font-weight: 700;
+}
+
+.nutrition {
+    padding: 0 var(--spacing-400);
+}
+
+.nutrition_value {
+    font-weight: 700;
+    color: var(--brown-800);
+}
+
 @media screen and (max-width: 767px) {
     .content {
         padding: var(--spacing-500);
@@ -36,6 +95,11 @@
 
     .pic {
         border-radius: 12px;
+    }
+
+    .title {
+        font-size: var(--font-size-desktop-1);
+        line-height: 2.5rem;
     }
 }
 
