@@ -1,1 +1,46 @@
 @import './basic.css';
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    width: var(--mobile);
+    margin: auto;
+    border-radius: 24px;
+    background-color: var(--white);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-400);
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-300);
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        padding: var(--spacing-500);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .recipe {
+        width: 616px;
+        padding: var(--spacing-500);
+        gap: var(--spacing-500);
+    }
+
+    .pic {
+        border-radius: 12px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .recipe {
+        width: 736px;
+    }
+}
