@@ -55,6 +55,38 @@
     color: var(--rose-800);
 }
 
+.time_item {
+    position: relative;
+}
+
+.time_item::before {
+    display: block;
+    position: absolute;
+    left: -5%;
+    bottom: 50%;
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--rose-800);
+}
+
+.ingredients_item {
+    position: relative;
+}
+
+.ingredients_item::before {
+    display: block;
+    position: absolute;
+    left: -5%;
+    bottom: 50%;
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--brown-800);
+}
+
 .subsection {
     display: flex;
     flex-direction: column;
@@ -72,9 +104,13 @@
     font-weight: 700;
 }
 
+.instructions_item {
+    position: relative;
+}
+
 .number {
     position: absolute;
-    left: 31%;
+    left: -5%;
     font-weight: 700;
     color: var(--brown-800);
 }
