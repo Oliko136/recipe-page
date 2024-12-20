@@ -72,6 +72,13 @@
     font-weight: 700;
 }
 
+.number {
+    position: absolute;
+    left: 31%;
+    font-weight: 700;
+    color: var(--brown-800);
+}
+
 .nutrition {
     padding: 0 var(--spacing-400);
 }
